@@ -1,0 +1,18 @@
+# jemdoc: menu{MENU}{resAreas.html}
+= Research Areas
+
+^^^
+{}{colorGrid}{part}{pics/f_diff.png}{rect}{fdiff}{350px}{200px}{Fractional Diffusion Equations}{fDiff.html}{Learning fractional Partial Differential Equations from the time-series data}
+{}{colorGrid}{part}{pics/spikeNet.png}{rect}{spkNet}{330px}{200px}{Network Reconstruction with spiking events}{spikeNet.html}{Complex networks reconstruction from spike trains using generalized poisson process with unknown unknowns}
+{}{colorGrid}{part}{pics/appSMF.png}{rect}{aSMF}{250px}{220px}{Approximate submodular functions}{appSMF.html}{Approximating a non-submodular function by bounding the function marginals with submodular functions}
+{}{colorGrid}{part}{pics/complexNet.png}{rect}{cNetUU}{250px}{220px}{Dealing with Unknown Unknowns}{uu.html}{Complex networks modeling using fractional dynamics in the presense of hidden nodes/unknown unknowns}
+{}{colorGrid}{part}{pics/ror.PNG}{rect}{ror}{250px}{250px}{Resource allocation in uncertainty}{ror.html}{Dynamics resource allocation under uncertain environments}
+{}{colorGrid}{part}{pics/complexModels.PNG}{rect}{complex}{400px}{250px}{Complex Models}{complexModel.html}{Compact yet Accurate Causal Mathematical Models of Complex Dynamics with Applications in Cyber-Physical Systems}
+{}{colorGrid}{part}{pics/drugDrugInter.jpg}{rect}{drugDrug}{400px}{250px}{Drug drug interaction}{drugDrug.html}{Harnessing the Structure of Complex Interdependent Networks: Applications to Drug Repositioning}
+{}{colorGrid}{part}{pics/energyLandScapeInit.png}{rect}{energyLands}{400px}{200px}{Biological Collective Systems}{collectSys.html}{Decoding the Principles of Emergence and Resiliency in Biological Collective Systems}
+
+^^^
+
+=== [dcoc.html Design Methodologies for Exascale Reconfigurable Data-Center-on-a-Chip Architectures]
+
+=== [noc.html Networks-on-Chip-based Manycores for Distributed Intelligence in Cyber-Physical Systems]
