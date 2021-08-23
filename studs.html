@@ -380,7 +380,98 @@ ss += '</td></tr>';
 ss += '</table></td>';
 var out = {str:ss, width:180, type:'part'};
 break;
-case 3:
+default:
+out = {str:'empty', width:0};
+}
+return out;
+}
+</script>
+<h2>High School <a href="https://viterbik12.usc.edu/shine/">SHINE</a> Students</h2>
+<table class="grid" id="projTable2"><tr>
+</tr></table>
+<script>
+gridTableInit2();
+window.addEventListener("resize", gridTableInit2);
+function gridTableInit2(){
+var projCount = 0;
+var varWidth = 150;
+var table = document.getElementById("projTable2");
+table.innerHTML = "";
+var rowId = 0;
+var consecutiveBreaks = 0;
+while(1){
+out = projElem2(projCount+1);
+if (out.str == 'empty'){
+break;
+}
+var row = table.insertRow(rowId);
+var cell = row.insertCell(0);
+var x = document.createElement('TABLE');
+x.className = 'grid';
+var tr = document.createElement('tr');
+var rowBegin = false;
+while(1){
+var out = projElem2(projCount+1);
+if (out.str == 'empty'){
+consecutiveBreaks = 0;
+break;
+}
+if (varWidth + out.width> window.outerWidth){
+consecutiveBreaks += 1;
+break;
+}
+var td = document.createElement('td');
+if (out.type == 'part'){
+td.className = 'topBox';
+var widthVar = out.width.toString() + 'px';
+td.width = widthVar;
+td.innerHTML = out.str;
+tr.appendChild(td);
+varWidth += out.width;
+varWidth += 20;
+projCount += 1;
+consecutiveBreaks = 0;
+rowBegin = true;
+continue;
+}
+else if(out.type == 'full' && !rowBegin){
+td.className = 'fullBlock';
+td.innerHTML = out.str;
+tr.appendChild(td);
+projCount += 1;
+consecutiveBreaks = 0;
+break;
+}
+else{
+break;
+}
+}
+if (consecutiveBreaks>1){
+break;
+}
+x.appendChild(tr)
+cell.appendChild(x);
+varWidth = 150;
+rowId += 1;
+}
+}
+function projElem2(ind){
+switch(ind){
+case 1:
+var ss = "";
+ss += '<td class="innerBlock">';
+ss += '<table class="colorBlock">';
+ss += '<tr><td class="cbHeading">';
+ss += '<a class="bh" href="https://youtu.be/SXTT5Xx_-dw">Vedika Kothari</a></td></tr>';
+ss += '<tr><td class="image">';
+ss += '<img class="round" src="pics/Vedika.jpg" alt="Vedika" style="width:180px;height:180px;" /></td></tr>';
+ss += '<tr><td class="bottomText">';
+ss += '"For years, I have switched from wanting to become a doctor to a software engineer, but never wanted to truly commit to one of those, because I knew I would have a part of me longing for more out of my career. So, when I saw this project, combining both health and technology, I knew I wanted to jump on it right away and be at the forefront of new discoveries." -Vedika Kothari SHINE High School Student Summer \'21';
+ss += '</td></tr>';
+ss += '</table></td>';
+var out = {str:ss, width:180, type:'part'};
+break;
+case 2:
 var ss = "";
 ss += '<td class="innerBlock">';
 ss += '<table class="colorBlock">';
@@ -389,12 +480,12 @@ ss += 'Avi Choudhary</td></tr>';
 ss += '<tr><td class="image">';
 ss += '<img class="round" src="pics/Avi.jpg" alt="Avi" style="width:180px;height:180px;" /></td></tr>';
 ss += '<tr><td class="bottomText">';
-ss += '"I loved to do research about mixing biological systems and machine learning into one research. It was fascinating to find out how using machine learning and coding allowed me to analyze neuron images and the connections between them. My mentor, Chenzhong Yin, taught me about implementing K-Nearest Neighbors (KNN) algorithm on neuron images, making it easier to implement a deep learning model. Along with looking at the hundreds of lines that my mentor and his team wrote, I also wrote a part of the code as well! My research had involved analyzing the Cell Body Dry Mass of Traumatic Brain Injury (TBI) neurons over a period of 14 hours to showcase the low level of protein transmission the damaged neurons had. This program has taught me that I have a great passion for interaction Biology with machine learning. I hope to continue this level of research in the future!" -Avi Choudhary SHINE High School Student Summer \'21';
+ss += '"I loved to do research about mixing biological systems and machine learning into one research. Along with looking at the hundreds of lines that my mentor and his team wrote, I also wrote a part of the code as well! This program has taught me that I have a great passion for interacting biology with machine learning." -Avi Choudhary SHINE High School Student Summer \'21';
 ss += '</td></tr>';
 ss += '</table></td>';
 var out = {str:ss, width:180, type:'part'};
 break;
-case 4:
+case 3:
 var ss = "";
 ss += '<td class="innerBlock">';
 ss += '<table class="colorBlock">';
@@ -403,7 +494,7 @@ ss += 'Advaita Guruprasad</td></tr>';
 ss += '<tr><td class="image">';
 ss += '<img class="round" src="pics/Advaita.jpg" alt="Advaita" style="width:180px;height:180px;" /></td></tr>';
 ss += '<tr><td class="bottomText">';
-ss += '"I am a rising Sophomore at Lynbrook High, and I enjoyed my summer research program at USC SHINE guided by Professor Bogdan and mentored by his PhD students. I learned graph theory, analysis of complex networks, and coding in Python. I applied the latest network sciences and network technologies to analyze SARS-CoV-2 data sets to understand variant patterns, detect community clusters, and predict spread patterns. I am grateful for this opportunity and it has inspired me to explore further studies and research in STEM fields that create impactful solutions for societal benefits." -Advaita Guruprasad SHINE High School Student Summer \'21';
+ss += '"I applied the latest network sciences and network technologies to analyze SARS-CoV-2 data sets to understand variant patterns, detect community clusters, and predict spread patterns. I am grateful for this opportunity and it has inspired me to explore further studies and research in STEM fields that create impactful solutions for societal benefits." -Advaita Guruprasad SHINE High School Student Summer \'21';
 ss += '</td></tr>';
 ss += '</table></td>';
 var out = {str:ss, width:180, type:'part'};
@@ -416,7 +507,7 @@ return out;
 </script>
 <div id="footer">
 <div id="footer-text">
-Page generated 2021-08-22 17:47:44 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2021-08-23 11:57:08 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
