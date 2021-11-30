@@ -37,6 +37,8 @@
 ^^^
 {}{colorGrid}{full}{}{}{}{0px}{0px}{2021}{}{}
 
+- Zikun Yang, Paul Bogdan, and Shahin Nazarian, [https://www.nature.com/articles/s41598-021-81749-9 An in silico deep learning approach to multi-epitope vaccine design: a SARS-CoV-2 case study],  /Nature Scientific Reports/, vol. 11, article number. 3238, February 5th 2021
+
 - Mingxi Cheng, Songli Wang, Xiaofeng Yan, Tianqi Yang, Wenshuo Wang, Zehao Huang, Xiongye Xiao, Shahin Nazarian, Paul Bogdan, [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8200409/ A COVID-19 Rumor Dataset], /Frontiers in Psychology/, vol. 12, 2021.
 
 - Mingxi Cheng, Yizhi Li, Shahin Nazarian, Paul Bogdan, [https://www.nature.com/articles/s41598-021-84993-1 From rumor to genetic mutation detection with explanations: a GAN approach], /Scientific Reports/, vol. 11, Issue 1, Pages 1-14, March 12, 2021.  
@@ -49,17 +51,26 @@
 
 - Rolf Müller, Jin-Ping Han, Sriram Chandrasekaran, Paul Bogdan, [https://academic.oup.com/icb/advance-article-abstract/doi/10.1093/icb/icab015/6244186 Deep Learning for Reintegrating Biology], /Integrative and Comparative Biology/, April 20, 2021.
 
+- Emily A Reed, Guilherme Ramos, Paul Bogdan, Sérgio Pequito, [https://arxiv.org/abs/2105.10229 A scalable distributed dynamical systems approach to compute the strongly connected components and diameter of networks], /arXiv preprint arXiv:2105.10229/, May 21, 2021. 
+
 - Mingxi Cheng, Chenzhong Yin, Shahin Nazarian, Paul Bogdan, [https://www.nature.com/articles/s41598-021-89202-7 Deciphering the laws of social network-transcendent COVID-19 misinformation dynamics and implications for combating misinformation phenomena], /Scientific Reports/, vol. 11, Issue 1, Pages 1-14, May 17, 2021. 
 
 - Paul Bogdan, Gustavo Caetano-Anollés, Anna Jolles, Hyunju Kim, James Morris, Cheryl A Murphy, Catherine Royer, Edward H Snell, Adam Steinbrenner, Nicholas Strausfeld, [https://academic.oup.com/icb/advance-article-abstract/doi/10.1093/icb/icab069/6281074 Biological networks across scales], /Integrative and Comparative Biology/, May 5, 2021.
+
+- Yao Xiao, Shahin Nazarian, Paul Bogdan, [https://www.nature.com/articles/s41598-021-91035-3 A stochastic quantum program synthesis framework based on Bayesian optimization], /Scientific Reports/, vol. 11, Issue 1, Pages 1-9, June 23, 2021.
+
+- Emily A Reed, Guilherme Ramos, Paul Bogdan, Sérgio Pequito, [https://arxiv.org/abs/2107.13493 Minimum Structural Sensor Placement for Switched Linear Time-Invariant Systems and Unknown Inputs], /arXiv preprint arXiv:2107.13493/, July 28, 2021. 
+
+- Gaurav Gupta, Chenzhong Yin, Jyotirmoy V Deshmukh, Paul Bogdan, [https://arxiv.org/abs/2107.13790 Non-Markovian Reinforcement Learning using Fractional Dynamics], /arXiv preprint arXiv:2107.13790/, July 29, 2021. 
 
 - Jingyu He, Yao Xiao, Corina Bogdan, Shahin Nazarian, Paul Bogdan [https://dl.acm.org/doi/abs/10.1145/3470451 A Design Methodology for Energy-Aware Processing in Unmanned Aerial Vehicles], /ACM Transactions on Design Automation of Electronic Systems (TODAES)/, vol. 27, Issue 1, Pages 1-20, September 13, 2021.
 
 - Ruochen Yang, Frederic Sala, Paul Bogdan, [https://www.nature.com/articles/s42005-021-00701-5 Hidden network generating rules from partially observed complex networks], /Communications Physics/, vol. 4, Issue 1, Pages 1-12, September 1, 2021.
 
-- Yao Xiao, Shahin Nazarian, Paul Bogdan, [https://www.nature.com/articles/s41598-021-91035-3 A stochastic quantum program synthesis framework based on Bayesian optimization], /Scientific Reports/, vol. 11, Issue 1, Pages 1-9, June 23, 2021.
+- Siddharth Jain, Xiongye Xiao, Paul Bogdan, Jehoshua Bruck, [https://www.nature.com/articles/s41598-021-00609-8 Generator based approach to analyze mutations in genomic datasets], /Scientific Reports/, vol. 11, Issue 1, Pages 1-12, October 26, 2021. s
 
-- Zikun Yang, Paul Bogdan, and Shahin Nazarian, [https://www.nature.com/articles/s41598-021-81749-9 An in silico deep learning approach to multi-epitope vaccine design: a SARS-CoV-2 case study],  /Nature Scientific Reports/, vol. 11, article number. 3238, February 5th 2021
+- Xiongye Xiao, Hanlong Chen, Paul Bogdan, [https://www.nature.com/articles/s41598-021-02203-4 Deciphering the generating rules and functionalities of complex networks], /Scientific Reports/, vol. 11, Issue 1, Pages 1-15, November 25, 2021. 
+
 
 {}{colorGrid}{full}{}{}{}{0px}{0px}{2020}{}{}
 
@@ -163,11 +174,14 @@
 - Paul Bogdan, Tudor Dumitras, and Radu Marculescu, [http://www.hindawi.com/journals/vlsi/2007/095348/abs/ Stochastic Communication: A New Paradigm for Fault-Tolerant Networks-on-Chip], /VLSI Design 2007/, 2007
 
 ^^^
-
 === Conference
 
 ^^^
 {}{colorGrid}{full}{}{}{}{0px}{0px}{2021}{}{}
+
+- Mingxi Cheng, Junyao Zhang, Shahin Nazarian, Jyotirmoy Deshmukh, Paul Bogdan, [https://ieeexplore.ieee.org/abstract/document/9576045 Trust-aware Control for Intelligent Transportation Systems], /2021 IEEE Intelligent Vehicles Symposium (IV)/, Pages 377-384, July 11, 2021. 
+
+- Gaurav Gupta, Xiongye Xiao, Paul Bogdan, [https://proceedings.neurips.cc/paper/2021/hash/c9e5c2b59d98488fe1070e744041ea0e-Abstract.html Multiwavelet-based operator learning for differential equations], /Advances in Neural Information Processing Systems/, vol. 34, December 6, 2021.
 
 - Gaurav Gupta, Chenzhong Yin, Jyotirmoy Deshmukh, and Paul Bogdan, Non-Markovian Reinforcement Learning using Fractional Dynamics, accepted in the Proceedings of IEEE Conference on Decision and Control (CDC) 2021
 
