@@ -34,14 +34,27 @@
 
 === Journal
 
-
 ^^^
 {}{colorGrid}{full}{}{}{}{0px}{0px}{2022}{}{}
 
-- Emily Reed, Sarthak Chatterjee, Guilherme Ramos, Paul Bogdan, & Sérgio Pequito. [https://www.sciencedirect.com/science/article/pii/S1367578822000852?casa_token=Q8ks5nSHcdUAAAAA:R-7xgyGsuydUYP8Pb280VRXDYP3biDWtSYM1bhd4rZGaVOmeZLQPkbdaXtVQGw47qYR5m4HiIIQ Fractional cyber-neural systems—A brief survey.] /Annual Reviews in Control./ July 6, 2022.
+- Emily A. Reed, Sarthak Chatterjee, Guilherme Ramos, Paul Bogdan, Sérgio Pequito. [https://www.sciencedirect.com/science/article/pii/S1367578822000852?casa_token=Q8ks5nSHcdUAAAAA:R-7xgyGsuydUYP8Pb280VRXDYP3biDWtSYM1bhd4rZGaVOmeZLQPkbdaXtVQGw47qYR5m4HiIIQ Fractional cyber-neural systems—A brief survey.] /Annual Reviews in Control./ July 6, 2022.
 
+- Jayson Sia, Wei Zhang, Edmond Jonckheere, David Cook, Paul Bogdan. [https://www.nature.com/articles/s41598-022-14631-x Inferring functional communities from partially observed biological networks exploiting geometric topology and side information.] /Scientific Reports/, vol. 12, Issue 1, p. 1-17. June 27, 2022.
 
-^^^
+- Paul Bogdan, Plamen Ch. Ivanov, Sérgio Pequito. [https://www.frontiersin.org/articles/10.3389/fphys.2022.917001/full?utm_source=dlvr.it&utm_medium=twitter Inference, Causality and Control in Networks of Dynamical Systems: Data Science and Modeling Perspectives to Network Physiology With Implications for Artificial Intelligence.] /Frontiers in Physiology./ p. 915. May 11, 2022.
+
+- Minjeong Cha, Emine Sumeyra Turali Emre, Xiongye Xiao, Ji-Young Kim, Paul Bogdan, J. Scott VanEpps, Angela Violi, Nicholas A. Kotov. [https://www.nature.com/articles/s43588-022-00229-w Unifying structural descriptors for biological and bioinspired nanoscale complexes.] /Nature Computational Science 2,/ no. 4 p. 243-252. April 28, 2022.
+
+- Yao Xiao, Guixiang Ma, Nesreen K. Ahmed, Mihai Capota, Theodore Willke, Shahin Nazarian, Paul Bogdan. [https://arxiv.org/abs/2204.11981 End-to-end Mapping in Heterogeneous Systems Using Graph Representation Learning.] /arXiv preprint arXiv:2204.11981./ April 25, 2022. 
+
+- Mohamed Ridha Znaidi, Gaurav Gupta, Paul Bogdan. [https://arxiv.org/abs/2205.04855 Secure Distributed\/Federated Learning: Prediction-Privacy Trade-Off for Multi-Agent System.] /arXiv preprint arXiv:2205.04855./ April 24, 2022.
+
+- Drew A. Vecchio, Mark D. Hammig, Xiongye Xiao, Anwesha Saha, Paul Bogdan, Nicholas A. Kotov. [https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202201313 Spanning Network Gels from Nanoparticles and Graph Theoretical Analysis of Their Structure and Properties.] /Advanced Materials/ p. 2201313. April 11, 2022.
+
+- Mingxi Cheng, Kyle Roseberry, Yena Choi, Laura Quast, Madelaine Gaines, George Sandusky, Jeffrey Kline, Paul Bogdan, Alexander B. Niculescu. [https://assets.researchsquare.com/files/rs-1442969/v1/1e8d2006-31b1-434c-8113-cb22ef0fe9f6.pdf?c=1647541449 Polyphenic Risk Score Shows Robust Predictive Ability For Long-Term Future Suicidality.] March 17, 2022.
+
+- Emily A. Reed, Paul Bogdan, Sérgio Pequito. [https://www.frontiersin.org/articles/10.3389/fcteg.2021.787747/full Quantification of fractional dynamical stability of eeg signals as a bio-marker for cognitive motor control.] /Frontiers in Control Engineering./ Vol. 2. February 1, 2022.
+
 {}{colorGrid}{full}{}{}{}{0px}{0px}{2021}{}{}
 
 - Xiongye Xiao, Hanlong Chen, Paul Bogdan, [https://www.nature.com/articles/s41598-021-02203-4 Deciphering the generating rules and functionalities of complex networks], /Scientific Reports/, vol. 11, Issue 1, Pages 1-15, November 25, 2021. 
@@ -52,7 +65,7 @@
 
 - Jingyu He, Yao Xiao, Corina Bogdan, Shahin Nazarian, Paul Bogdan [https://dl.acm.org/doi/abs/10.1145/3470451 A Design Methodology for Energy-Aware Processing in Unmanned Aerial Vehicles], /ACM Transactions on Design Automation of Electronic Systems (TODAES)/, vol. 27, Issue 1, Pages 1-20, September 13, 2021.
 
-- Emily A Reed, Guilherme Ramos, Paul Bogdan, Sérgio Pequito, [https://arxiv.org/abs/2107.13493 Minimum Structural Sensor Placement for Switched Linear Time-Invariant Systems and Unknown Inputs], /arXiv preprint arXiv:2107.13493/, July 28, 2021. 
+- Emily A. Reed, Guilherme Ramos, Paul Bogdan, Sérgio Pequito, [https://arxiv.org/abs/2107.13493 Minimum Structural Sensor Placement for Switched Linear Time-Invariant Systems and Unknown Inputs], /arXiv preprint arXiv:2107.13493/, July 28, 2021. 
 
 - Yao Xiao, Shahin Nazarian, Paul Bogdan, [https://www.nature.com/articles/s41598-021-91035-3 A stochastic quantum program synthesis framework based on Bayesian optimization], /Scientific Reports/, vol. 11, Issue 1, Pages 1-9, June 23, 2021.
 
@@ -60,14 +73,14 @@
 
 - Mingxi Cheng, Chenzhong Yin, Shahin Nazarian, Paul Bogdan, [https://www.nature.com/articles/s41598-021-89202-7 Deciphering the laws of social network-transcendent COVID-19 misinformation dynamics and implications for combating misinformation phenomena], /Scientific Reports/, vol. 11, Issue 1, Pages 1-14, May 17, 2021. 
 
-- Emily A Reed\*, Guilherme Ramos\*, Paul Bogdan, Sérgio Pequito, [https://arxiv.org/abs/2105.10229 A scalable distributed dynamical systems approach to compute the strongly connected components and diameter of networks], /arXiv preprint arXiv:2105.10229/, May 21, 2021. \n
+- Emily A. Reed\*, Guilherme Ramos\*, Paul Bogdan, Sérgio Pequito, [https://arxiv.org/abs/2105.10229 A scalable distributed dynamical systems approach to compute the strongly connected components and diameter of networks], /arXiv preprint arXiv:2105.10229/, May 21, 2021. \n
 (\* equal contribution authors)
 
 - Rolf Müller, Jin-Ping Han, Sriram Chandrasekaran, Paul Bogdan, [https://academic.oup.com/icb/advance-article-abstract/doi/10.1093/icb/icab015/6244186 Deep Learning for Reintegrating Biology], /Integrative and Comparative Biology/, April 20, 2021.
 
 - Yao Xiao, Shahin Nazarian, Paul Bogdan, [https://ieeexplore.ieee.org/abstract/document/9397284/ Plasticity-on-Chip Design: Exploiting Self-Similarity for Data Communications], /IEEE Transactions on Computers/, vol. 70, Issue 6, Pages 950-962, April 6, 2021. 
 
-- Anne E Thessen, Paul Bogdan, David J Patterson, Theresa M Casey, César Hinojo-Hinojo, Orlando de Lange, Melissa A Haendel, [https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001129 From Reductionism to Reintegration: Solving society’s most pressing problems requires building bridges between data types across the life sciences], /PLoS Biology/, vol. 19, Issue 3, March 26, 2021.
+- Anne E. Thessen, Paul Bogdan, David J. Patterson, Theresa M. Casey, César Hinojo-Hinojo, Orlando de Lange, Melissa A. Haendel, [https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001129 From Reductionism to Reintegration: Solving society’s most pressing problems requires building bridges between data types across the life sciences], /PLoS Biology/, vol. 19, Issue 3, March 26, 2021.
 
 - Guixiang Ma, Yao Xiao, Theodore Willke, Nesreen Ahmed, Shahin Nazarian, Paul Bogdan, [https://proceedings.mlsys.org/papers/2021/146 A Distributed Graph-Theoretic Framework for Automatic Parallelization in Multi-core Systems], /Proceedings of Machine Learning and Systems/, vol. 3, March 15, 2021. 
 
