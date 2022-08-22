@@ -1,34 +1,35 @@
 # jemdoc: menu{MENU}{studs.html}
 = Students
 
-== Current
+== Current PhD Students
 
 ^^^
 {}{colorGrid}{part}{pics/Ridha.jpg}{round}{Ridha}{180px}{180px}{Mohamed Ridha}{}{PhD Candidate}
-{}{colorGrid}{part}{pics/Panagiotis.jpg}{round}{Panagiotis}{180px}{180px}{Panagiotis Kyriakis}{}{PhD Candidate}
-{}{colorGrid}{part}{pics/Mingxi.jpg}{round}{Mingxi}{180px}{180px}{Mingxi Cheng}{https://sites.google.com/a/usc.edu/mingxicheng}{PhD Candidate}
-{}{colorGrid}{part}{pics/Valeriu.png}{round:45}{Valeriu}{180px}{180px}{Valeriu Balaban}{}{PhD Student}
+{}{colorGrid}{part}{pics/Valeriu.png}{round:45}{Valeriu}{180px}{180px}{Valeriu Balaban}{}{PhD Candidate}
+{}{colorGrid}{part}{pics/Ruochen.jpg}{round}{Ruochen}{180px}{180px}{Ruochen Yang}{}{PhD Candidate}
 {}{colorGrid}{part}{pics/Jayson.png}{round}{Jayson}{180px}{180px}{Jayson Sia}{}{PhD Student}
 {}{colorGrid}{part}{pics/Emily.JPG}{round}{Emily}{180px}{180px}{Emily Reed}{https://sites.google.com/usc.edu/emilyareed}{PhD Student}
 {}{colorGrid}{part}{pics/Yao.png}{round}{Yao}{180px}{180px}{Yao Xiao}{http://scf.usc.edu/~xiaoyao}{PhD Student}
-{}{colorGrid}{part}{pics/Ruochen.jpg}{round}{Ruochen}{180px}{180px}{Ruochen Yang}{}{PhD Student}
 {}{colorGrid}{part}{pics/chenzhong.png}{round}{Chenzhong}{180px}{180px}{Chenzhong Yin}{}{PhD Student}
 {}{colorGrid}{part}{pics/xiong.jpg}{round:50}{Xiong}{180px}{180px}{Xiong Ye Xiao}{}{PhD Student}
 {}{colorGrid}{part}{pics/Zikun.JPG}{round}{Zikun}{180px}{180px}{Zikun Yang}{}{PhD Student}
 {}{colorGrid}{part}{pics/Qi.jpeg}{round}{Qi}{180px}{180px}{Qi Cao}{}{PhD Student}
 ^^^
 
-== Alumni
+== Doctoral Alumni
 
 ^^^
-{}{colorGrid}{part}{pics/Gaurav.jpg}{round:50}{Gaurav}{180px}{180px}{Gaurav Gupta}{http://www-scf.usc.edu/~ggaurav}{Graduated in December \'21}
-{}{colorGrid}{part}{pics/Yuankun.jpg}{round}{Yuankun}{180px}{180px}{Yuankun Xue}{https://www.yuankunxue.com}{Graduated in Aug \'18}
+{}{colorGrid}{part}{pics/Mingxi.jpg}{round:50}{Mingxi}{180px}{180px}{Mingxi Cheng}{https://sites.google.com/a/usc.edu/mingxicheng}{Graduated in Aug. \'22}
+{}{colorGrid}{part}{pics/Panagiotis.jpg}{round:50}{Panagiotis}{180px}{180px}{Panagiotis Kyriakis}{}{Graduated in May \'22}
+{}{colorGrid}{part}{pics/Gaurav.jpg}{round:50}{Gaurav}{180px}{180px}{Gaurav Gupta}{http://www-scf.usc.edu/~ggaurav}{Graduated in Dec. \'21}
+{}{colorGrid}{part}{pics/Yuankun.jpg}{round}{Yuankun}{180px}{180px}{Yuankun Xue}{}{Graduated in Aug. \'18}
 {}{colorGrid}{part}{pics/Hana.jpg}{round}{Hana}{180px}{180px}{Hana Koorehdavoudi}{}{Graduated in May \'17}
 ^^^
 
 == High School [https://viterbik12.usc.edu/shine/ SHINE] Students
 
 ^^^
+{}{colorGrid}{part}{pics/Julia.jpg}{round}{Julia}{180px}{180px}{Julia Gong}{}{"In the research I participated in, we used a mathematical modeling system to detect seizure onsets in epileptic patients. I learned a lot of valuable skills during this research from using MATLAB to analyzing figures. This unique opportunity has inspired me to explore more research at the intersection of biology and engineering. " -Julia Gong SHINE High School Student Summer \'22}
 {}{colorGrid}{part}{pics/Vedika.jpg}{round}{Vedika}{180px}{180px}{Vedika Kothari}{https://youtu.be/SXTT5Xx_-dw}{"For years, I have switched from wanting to become a doctor to a software engineer, but never wanted to truly commit to one of those, because I knew I would have a part of me longing for more out of my career. So, when I saw this project, combining both health and technology, I knew I wanted to jump on it right away and be at the forefront of new discoveries." -Vedika Kothari SHINE High School Student Summer \'21}
 {}{colorGrid}{part}{pics/Avi.jpg}{round}{Avi}{180px}{180px}{Avi Choudhary}{}{"I loved to do research about mixing biological systems and machine learning into one research. Along with looking at the hundreds of lines that my mentor and his team wrote, I also wrote a part of the code as well! This program has taught me that I have a great passion for interacting biology with machine learning." -Avi Choudhary SHINE High School Student Summer \'21}
 {}{colorGrid}{part}{pics/Advaita.jpg}{round}{Advaita}{180px}{180px}{Advaita Guruprasad}{}{"I applied the latest network sciences and network technologies to analyze SARS-CoV-2 data sets to understand variant patterns, detect community clusters, and predict spread patterns. I am grateful for this opportunity and it has inspired me to explore further studies and research in STEM fields that create impactful solutions for societal benefits." -Advaita Guruprasad SHINE High School Student Summer \'21}
