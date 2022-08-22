@@ -386,7 +386,7 @@ out = {str:'empty', width:0};
 return out;
 }
 </script>
-<h2>High School <a href="https://viterbik12.usc.edu/shine/">SHINE</a> Students</h2>
+<h2>Undergraduate <a href="https://viterbiundergrad.usc.edu/research/curve/">CURVE</a> Students</h2>
 <table class="grid" id="projTable2"><tr>
 </tr></table>
 <script>
@@ -462,6 +462,97 @@ var ss = "";
 ss += '<td class="innerBlock">';
 ss += '<table class="colorBlock">';
 ss += '<tr><td class="cbHeading">';
+ss += 'Yaoyue Wang</td></tr>';
+ss += '<tr><td class="image">';
+ss += '<img class="round" src="pics/Yaoyue.png" alt="Yaoyue" style="width:180px;height:180px;" /></td></tr>';
+ss += '<tr><td class="bottomText">';
+ss += '"I am currently conducting research on predicting seizure onset in Epileptic patients. I have learned important data analysis techniques, how to analyze research papers, how to program in MATLAB and many more important reserach skills. " -Yaoyue Wang CURVE Undergraduate Student 2021-2023';
+ss += '</td></tr>';
+ss += '</table></td>';
+var out = {str:ss, width:180, type:'part'};
+break;
+default:
+out = {str:'empty', width:0};
+}
+return out;
+}
+</script>
+<h2>High School <a href="https://viterbik12.usc.edu/shine/">SHINE</a> Students</h2>
+<table class="grid" id="projTable3"><tr>
+</tr></table>
+<script>
+gridTableInit3();
+window.addEventListener("resize", gridTableInit3);
+function gridTableInit3(){
+var projCount = 0;
+var varWidth = 150;
+var table = document.getElementById("projTable3");
+table.innerHTML = "";
+var rowId = 0;
+var consecutiveBreaks = 0;
+while(1){
+out = projElem3(projCount+1);
+if (out.str == 'empty'){
+break;
+}
+var row = table.insertRow(rowId);
+var cell = row.insertCell(0);
+var x = document.createElement('TABLE');
+x.className = 'grid';
+var tr = document.createElement('tr');
+var rowBegin = false;
+while(1){
+var out = projElem3(projCount+1);
+if (out.str == 'empty'){
+consecutiveBreaks = 0;
+break;
+}
+if (varWidth + out.width> window.outerWidth){
+consecutiveBreaks += 1;
+break;
+}
+var td = document.createElement('td');
+if (out.type == 'part'){
+td.className = 'topBox';
+var widthVar = out.width.toString() + 'px';
+td.width = widthVar;
+td.innerHTML = out.str;
+tr.appendChild(td);
+varWidth += out.width;
+varWidth += 20;
+projCount += 1;
+consecutiveBreaks = 0;
+rowBegin = true;
+continue;
+}
+else if(out.type == 'full' && !rowBegin){
+td.className = 'fullBlock';
+td.innerHTML = out.str;
+tr.appendChild(td);
+projCount += 1;
+consecutiveBreaks = 0;
+break;
+}
+else{
+break;
+}
+}
+if (consecutiveBreaks>1){
+break;
+}
+x.appendChild(tr)
+cell.appendChild(x);
+varWidth = 150;
+rowId += 1;
+}
+}
+function projElem3(ind){
+switch(ind){
+case 1:
+var ss = "";
+ss += '<td class="innerBlock">';
+ss += '<table class="colorBlock">';
+ss += '<tr><td class="cbHeading">';
 ss += 'Julia Gong</td></tr>';
 ss += '<tr><td class="image">';
 ss += '<img class="round" src="pics/Julia.jpg" alt="Julia" style="width:180px;height:180px;" /></td></tr>';
@@ -521,7 +612,7 @@ return out;
 </script>
 <div id="footer">
 <div id="footer-text">
-Page generated 2022-08-22 09:50:11 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2022-08-22 11:16:44 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
