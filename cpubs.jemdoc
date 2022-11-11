@@ -1,8 +1,19 @@
 # jemdoc: menu{MENU}{cpubs.html}
 \n
 = Conference Proceedings
-
 ^^^
+{}{colorGrid}{full}{}{}{}{0px}{0px}{2022}{}{}
+
+- Mingxi Cheng, Tingyang Sun, Shahin Nazarian, and Paul Bogdan. [https://virtual.lifelong-ml.cc/poster_20.html Trustworthiness Evaluation and Trust-Aware Design of CNN Architectures.] /Conference on Lifelong Learning Agents./ August 22, 2022.
+
+- Gaurav Gupta, Xiongye Xiao, Radu Balan, and Paul Bogdan. [https://openreview.net/pdf?id=d2TT6gK9qZn Non-Linear Operator Approximatorions for Initial Value Problems.] /International Conference on Learning Representations./ March 14, 2022.
+
+- Panagiotis Kyriakis, Jyotirmoy Deshmukh, and Paul Bogdan. [https://openreview.net/pdf?id=wfZGut6e09 Pareto Policy Adaptation.] /International Conference on Learning Representations./ March 15, 2022. 
+
+- Panagiotis Kyriakis, Jyotirmoy Deshmukh, and Paul Bogdan. [https://ieeexplore.ieee.org/abstract/document/9867861 Learning from Demonstrations under Stochastic Temporal Logic Constraints.] /In Proceedings of the IEEE American Control Conference 2022./ p. 2598-2603. June 8, 2022. 
+
+- Mohamed Ridha Znaidi, Gaurav Gupta, and Paul Bogdan. [https://ieeexplore.ieee.org/document/9834840 Secure Distributed\/Federated Learning: Prediction-Privacy Trade-Off for Multi-Agent System.] /In Proceedings of the IEEE International Symposium on Information Theory/. June 26, 2022.
+
 {}{colorGrid}{full}{}{}{}{0px}{0px}{2021}{}{}
 
 - Gaurav Gupta, Xiongye Xiao, Paul Bogdan, [https://proceedings.neurips.cc/paper/2021/hash/c9e5c2b59d98488fe1070e744041ea0e-Abstract.html Multiwavelet-based operator learning for differential equations], /Advances in Neural Information Processing Systems/, vol. 34, December 6, 2021. *Spotlight*
