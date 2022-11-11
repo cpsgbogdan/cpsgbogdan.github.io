@@ -1,10 +1,9 @@
 # jemdoc: menu{MENU}{index.html}
-= Cyber Physical Systems Group
+== Cyber Physical Systems Group
 
 == Paul Bogdan
 ~~~
 {}{img_left}{pics/PPaulB.jpg}{300px}{300px}{}{}
-
 Jack Munushian Early Career Chair and Associate Professor \n
 of Electrical and Computer Engineering, \n
 [http://minghsiehee.usc.edu/ Ming Hsieh Department of Electrical and Computer Engineering]\n
@@ -22,6 +21,8 @@ email: pbogdan \[at\] usc \[dot\] edu \n
 Our research is dedicated to understanding and designing Cyber Physical Systems. CPS is a highly interdisciplinary area and our group works on a variety of topics. In general, we are interested in the fundamental and applied questions relating to the structure and dynamics of networks. 
 
 == News
+
+- Jayson's work on [https://viterbischool.usc.edu/news/2022/11/a-new-mathematical-model-to-improve-ai-and-machine-learning/ Inferring functional communities from partially observed biological networks] was featured 
 
 - Emily was selected as an [https://risingstars.utexas.edu EECS Rising Star] and will attend the 2022 workshop at the University of Texas at Austin
 
