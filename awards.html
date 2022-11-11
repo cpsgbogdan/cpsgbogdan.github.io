@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title></title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">CPSG</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="studs.html">Students</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="awards.html" class="current">Awards</a></div>
+<div class="menu-item"><a href="jpubs.html">Journal&nbsp;Publications</a></div>
+<div class="menu-item"><a href="cpubs.html">Conference&nbsp;Proceedings</a></div>
+<div class="menu-item"><a href="resAreas.html">Research&nbsp;Projects</a></div>
+<div class="menu-item"><a href="code.html">Code</a></div>
+</td>
+<td id="layout-content">
+<p><br /></p>
+<h1>Awards</h1>
+<table class="grid" id="projTable0"><tr>
+</tr></table>
+<script>
+gridTableInit0();
+window.addEventListener("resize", gridTableInit0);
+function gridTableInit0(){
+var projCount = 0;
+var varWidth = 150;
+var table = document.getElementById("projTable0");
+table.innerHTML = "";
+var rowId = 0;
+var consecutiveBreaks = 0;
+while(1){
+out = projElem0(projCount+1);
+if (out.str == 'empty'){
+break;
+}
+var row = table.insertRow(rowId);
+var cell = row.insertCell(0);
+var x = document.createElement('TABLE');
+x.className = 'grid';
+var tr = document.createElement('tr');
+var rowBegin = false;
+while(1){
+var out = projElem0(projCount+1);
+if (out.str == 'empty'){
+consecutiveBreaks = 0;
+break;
+}
+if (varWidth + out.width> window.outerWidth){
+consecutiveBreaks += 1;
+break;
+}
+var td = document.createElement('td');
+if (out.type == 'part'){
+td.className = 'topBox';
+var widthVar = out.width.toString() + 'px';
+td.width = widthVar;
+td.innerHTML = out.str;
+tr.appendChild(td);
+varWidth += out.width;
+varWidth += 20;
+projCount += 1;
+consecutiveBreaks = 0;
+rowBegin = true;
+continue;
+}
+else if(out.type == 'full' && !rowBegin){
+td.className = 'fullBlock';
+td.innerHTML = out.str;
+tr.appendChild(td);
+projCount += 1;
+consecutiveBreaks = 0;
+break;
+}
+else{
+break;
+}
+}
+if (consecutiveBreaks>1){
+break;
+}
+x.appendChild(tr)
+cell.appendChild(x);
+varWidth = 150;
+rowId += 1;
+}
+}
+function projElem0(ind){
+switch(ind){
+case 1:
+var ss = "";
+ss += '<td class="innerBlock">';
+ss += '<table class="colorBlock">';
+ss += '<tr><td class="bottomText">';
+ss += '<ul><li><p>Defense Advanced Research Projects Agency (<b>DARPA</b>) 2019 Director\'s Fellowship</p></li></ul>';
+ss += '<ul><li><p>2018 Recipient of <b>IEEE CEDA Ernest S. Kuh Early Career Award</b></p></li></ul>';
+ss += '<ul><li><p><b>Okawa Foundation</b> Research Grant Award 2017</p></li></ul>';
+ss += '<ul><li><p>Defense Advanced Research Projects Agency (<b>DARPA</b>) 2017 Young Faculty Award</p></li></ul>';
+ss += '<ul><li><p>National Science Foundation <b>CAREER award</b>, May 2015</p></li></ul>';
+ss += '<ul><li><p><b>Best Paper Award</b> at the 18th ACM/IEEE Asia and South Pacific Design Automation Conference (ASP-DAC 2013), January 2013</p></li></ul>';
+ss += '<ul><li><p><b>Best Paper Award</b> at the 10th ACM/IEEE International Conference on Hardware/Software Codesign and System Synthesis (CODES), October 2012</p></li></ul>';
+ss += '<ul><li><p><b>Best in Session Award</b> at the Semiconductor Research Corporation (SRC) TECHCON Technology / Talent for the 21st Century, September 2012</p></li></ul>';
+ss += '<ul><li><p><b>Best Paper Award</b> at 6th ACM/IEEE International Symposium on Networks-on-Chip (NOCS), May 2012</p></li></ul>';
+ss += '<ul><li><p>PhD research and dissertation <b>A. G. Jordan Award</b> from the Electrical and Computer Engineering Department of Carnegie Mellon University, May 2012</p></li></ul>';
+ss += '<ul><li><p><b>2012 Donald O. Pederson Award</b> for the best paper published in the IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</p></li></ul>';
+ss += '</td></tr>';
+ss += '</table></td>';
+var out = {str:ss, width:0, type:'full'};
+break;
+default:
+out = {str:'empty', width:0};
+}
+return out;
+}
+</script>
+<div id="footer">
+<div id="footer-text">
+Page generated 2022-11-10 20:26:49 EST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121309974-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-121309974-2');
+</script>
+</body>
+</html>
