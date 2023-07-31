@@ -21,9 +21,9 @@
 == Doctoral Alumni
 
 ^^^
-{}{colorGrid}{part}{pics/Emily.JPG}{round}{Emily}{180px}{180px}{Emily Reed}{https://sites.google.com/usc.edu/emilyareed}{Research Scientist at XYZ Corp.}
-{}{colorGrid}{part}{pics/Valeriu.png}{round:45}{Valeriu}{180px}{180px}{Valeriu Balaban}{}{Data Scientist at ABC Corp.}
-{}{colorGrid}{part}{pics/Ridha.jpg}{round}{Ridha}{180px}{180px}{Mohamed Ridha}{}{Software Engineer at PQR Corp.}
+{}{colorGrid}{part}{pics/Emily.JPG}{round}{Emily}{180px}{180px}{Emily Reed}{https://sites.google.com/usc.edu/emilyareed}{}
+{}{colorGrid}{part}{pics/Valeriu.png}{round:45}{Valeriu}{180px}{180px}{Valeriu Balaban}{}{}
+{}{colorGrid}{part}{pics/Ridha.jpg}{round}{Ridha}{180px}{180px}{Mohamed Ridha}{}{}
 {}{colorGrid}{part}{pics/Mingxi.jpg}{round:50}{Mingxi}{180px}{180px}{Mingxi Cheng}{https://sites.google.com/a/usc.edu/mingxicheng}{Data and Applied Scientist at Microsoft} 
 {}{colorGrid}{part}{pics/Panagiotis.jpg}{round:50}{Panagiotis}{180px}{180px}{Panagiotis Kyriakis}{}{SaaS Cloud Security Senior Software Engineer at Oracle}
 {}{colorGrid}{part}{pics/Gaurav.jpg}{round:50}{Gaurav}{180px}{180px}{Gaurav Gupta}{http://www-scf.usc.edu/~ggaurav}{Machine Learning Scientist at Amazon Web Services AI}
