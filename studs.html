@@ -123,6 +123,115 @@ out = {str:'empty', width:0};
 return out;
 }
 </script>
+
+
+
+
+
+
+<h2>Postdoctoral  Researcher</h2>
+<table class="grid" id="projTablePostdoc"><tr>
+</tr></table>
+<script>
+gridTableInitPostdoc();
+window.addEventListener("resize", gridTableInitPostdoc);
+function gridTableInitPostdoc(){
+var projCount = 0;
+var varWidth = 150;
+var table = document.getElementById("projTablePostdoc");
+table.innerHTML = "";
+var rowId = 0;
+var consecutiveBreaks = 0;
+while(1){
+out = projElemPostdoc(projCount+1);
+if (out.str == 'empty'){
+break;
+}
+var row = table.insertRow(rowId);
+var cell = row.insertCell(0);
+var x = document.createElement('TABLE');
+x.className = 'grid';
+var tr = document.createElement('tr');
+var rowBegin = false;
+while(1){
+var out = projElemPostdoc(projCount+1);
+if (out.str == 'empty'){
+consecutiveBreaks = 0;
+break;
+}
+if (varWidth + out.width> window.outerWidth){
+consecutiveBreaks += 1;
+break;
+}
+var td = document.createElement('td');
+if (out.type == 'part'){
+td.className = 'topBox';
+var widthVar = out.width.toString() + 'px';
+td.width = widthVar;
+td.innerHTML = out.str;
+tr.appendChild(td);
+varWidth += out.width;
+varWidth += 20;
+projCount += 1;
+consecutiveBreaks = 0;
+rowBegin = true;
+continue;
+}
+else if(out.type == 'full' && !rowBegin){
+td.className = 'fullBlock';
+td.innerHTML = out.str;
+tr.appendChild(td);
+projCount += 1;
+consecutiveBreaks = 0;
+break;
+}
+else{
+break;
+}
+}
+if (consecutiveBreaks>1){
+break;
+}
+x.appendChild(tr)
+cell.appendChild(x);
+varWidth = 150;
+rowId += 1;
+}
+}
+function projElemPostdoc(ind){
+switch(ind){
+case 1:
+var ss = "";
+ss += '<td class="innerBlock">';
+ss += '<table class="colorBlock">';
+ss += '<tr><td class="cbHeading">';
+ss += 'Nikos Kanakaris</td></tr>';
+ss += '<tr><td class="image">';
+ss += '<img class="round" src="pics/Nikos.jpg" alt="Nikos" style="width:180px;height:180px;" /></td></tr>';
+ss += '<tr><td class="bottomText">';
+ss += 'Postdoctoral  Researcher';
+ss += '</td></tr>';
+ss += '</table></td>';
+var out = {str:ss, width:180, type:'part'};
+break;
+default:
+out = {str:'empty', width:0};
+}
+return out;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
 <h2>Ph.D Students</h2>
 <table class="grid" id="projTable1"><tr>
 </tr></table>
